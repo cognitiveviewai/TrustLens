@@ -48,7 +48,7 @@ This folder contains sub folders containing scripts that provide insights into t
 - `feature_importances.py`: It computes the feature importances and provides a dictionary containing the feature importance per column with the column name as key and the feature importance value as the value.
 
 ### 4. **regression_metrics**
-It contains python scripts and tools to compute metrics used for evaluating regression models provided by Evidently AI, Fiddler AI and Whylabs AI. This folder is divided into the following sub folders:
+It contains python scripts and tools to compute metrics used for evaluating regression models provided by Evidently AI This folder is divided into the following sub folders:
 
 - **evidently_ai**: Scripts leveraging Evidently AI for generating multiple regression metrics. 
 
@@ -57,10 +57,10 @@ It contains python scripts and tools to compute metrics used for evaluating regr
 - `mean_absolute_percentage_error.py`: Calculates the Mean Absolute Percentage Error (MAPE) for regression models.
 - `mean_error.py`: Calculates the mean error for regression models.
 - `r_squared_score.py`: Calculates the R2 score for regression models.
-- `regression.py`:  An aggregation of all the metrics and tests provided by Evidently AI for regression.
 - `root_mean_squared_error.py`:  Calculates the root mean squared error (RMSE) for regression models.
 - `standard_deviation_error.py`:  Calculates the standard deviation of error for regression models.
 - `absolute_maximum_error.py`:  Calculates the absolute maximum error and compares it to the reference or against a defined condition for regression models.
+- send_regression_metrics: Contains scripts for sending the regression metrics using the evidence API.
 
 ### Alert Thresholds
 
